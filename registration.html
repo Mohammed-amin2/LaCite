@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="#">LOGO</a>
+            </div>
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li>
+                            <a class="active" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="registration.html">Registration</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQs</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="registration-page">
+        <section class="registration-content">
+            <h2>Register for Our Courses</h2>
+            <p>Join our courses to enhance your programming skills and boost your career.</p>
+        </section>
+        <section class="registration-form">
+            <form>
+                <label for="registration-name">Name:</label>
+                <input type="text" id="registration-name" name="registration-name" required>
+
+                <label for="registration-email">Email:</label>
+                <input type="email" id="registration-email" name="registration-email" required>
+
+                <label for="registration-password">Password:</label>
+                <input type="password" id="registration-password" name="registration-password" required>
+
+                <label for="course-selection">Select Course:</label>
+                <select id="course-selection" name="course-selection" required>
+                    <option value="">Select a Course</option>
+                    <option value="course1">Intro to software engineering</option>
+                    <option value="course2">Programmation en C </option>
+                    <option value="course3">Algorithms and data structures</option>
+                </select>
+
+                <button type="submit" class="registration-cta-button">Register</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="left-content">
+            <a href="https://github.com/Mohammed-amin2" target="_blank">GitHub</a>
+        </div>
+        <div class="right-content">
+            <span>&copy; LaCite Coding academy</span>
+            
+            <span>Groupe 11</span>
+        </div>
+    </footer>
+
+
+    </main>
+</body>
+
+</html>
